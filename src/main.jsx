@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { FirstComponent } from './components/FirstComponent'
+import { Counter } from './components/Counter'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
-      <FirstComponent title="Sending title prop" subtitle="sub"/>
-       
+    <Counter value={0}/> 
   </React.StrictMode>
 )
